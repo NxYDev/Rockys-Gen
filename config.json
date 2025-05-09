@@ -1,0 +1,28 @@
+{
+    "token": "MTM3MDMwNTA0OTAxOTgwOTg3Mw.GrMvP5.3OLPHCwjNjOtujjMRTuXZcPDWpW4WreMEtWZiM",
+    "prefix": "!",
+    "admin_roles": [
+        "Admin"
+    ],
+    "premium_roles": [
+        "Premium"
+    ],
+    "cooldown": {
+        "free": 86400,
+        "premium": 3600
+    },
+    "embed_color": 7553854,
+    "log_channel": null,
+    "status_rotation": [
+        "Generating accounts!",
+        "Use /help for commands",
+        "Premium accounts available!"
+    ],
+    "web": {
+        "host": "0.0.0.0",
+        "port": 5000,
+        "secret_key": "GENERATE_A_RANDOM_SECRET_KEY",
+        "username": "admin",
+        "password": "scrypt:32768:8:1$wciWE37djdoEM1tK$4a0705bbb6a0e71ead89b284d274189b0d48cd20e1c48fd598bc10faa9e9be711337e10fc767b179f16b1a33682902e0fea7b7ba27b3e6cae9ce1feac56ed627"
+    }
+}

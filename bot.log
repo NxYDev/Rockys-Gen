@@ -1,0 +1,730 @@
+2025-05-09 22:55:28,058 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-09 22:56:15,872 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-09 22:57:49,239 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-09 22:59:11,550 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-09 22:59:11,566 - discord.ext.commands.bot - WARNING - Privileged message content intent is missing, commands may not work as expected.
+2025-05-09 22:59:11,567 - discord.client - INFO - logging in using static token
+2025-05-09 22:59:11,648 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.151.133:5000
+2025-05-09 22:59:11,653 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-09 22:59:15,122 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: b7ada858f4a0a66b8a1cadb86e383e26).
+2025-05-09 22:59:17,129 - __main__ - INFO - Logged in as Rocky gen#8831 (ID: 1370305049019809873)
+2025-05-09 22:59:17,130 - __main__ - INFO - Connected to 1 guilds
+2025-05-09 22:59:19,875 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 22:59:19] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-09 22:59:19,983 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 22:59:19] "GET /login HTTP/1.1" 200 -
+2025-05-09 22:59:22,633 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 22:59:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-09 22:59:25,405 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 22:59:25] "POST /login HTTP/1.1" 200 -
+2025-05-09 22:59:30,990 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 22:59:30] "POST /login HTTP/1.1" 200 -
+2025-05-09 22:59:33,880 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 22:59:33] "[32mGET /settings HTTP/1.1[0m" 302 -
+2025-05-09 22:59:33,887 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 22:59:33] "GET /login HTTP/1.1" 200 -
+2025-05-09 22:59:34,414 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 22:59:34] "[32mGET /accounts HTTP/1.1[0m" 302 -
+2025-05-09 22:59:34,424 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 22:59:34] "GET /login HTTP/1.1" 200 -
+2025-05-09 22:59:35,639 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 22:59:35] "[32mGET /accounts HTTP/1.1[0m" 302 -
+2025-05-09 22:59:35,648 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 22:59:35] "GET /login HTTP/1.1" 200 -
+2025-05-09 22:59:36,310 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 22:59:36] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-05-09 22:59:36,319 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 22:59:36] "GET /login HTTP/1.1" 200 -
+2025-05-09 22:59:38,349 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 22:59:38] "[33mGET /admin HTTP/1.1[0m" 404 -
+2025-05-09 22:59:57,320 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 22:59:57] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-09 22:59:57,332 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 22:59:57] "GET /login HTTP/1.1" 200 -
+2025-05-09 23:00:06,004 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:00:06] "POST /login HTTP/1.1" 200 -
+2025-05-09 23:00:10,612 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:00:10] "POST /login HTTP/1.1" 200 -
+2025-05-09 23:00:17,368 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:00:17] "[32mGET /settings HTTP/1.1[0m" 302 -
+2025-05-09 23:00:17,374 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:00:17] "GET /login HTTP/1.1" 200 -
+2025-05-09 23:00:18,270 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:00:18] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-05-09 23:00:18,279 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:00:18] "GET /login HTTP/1.1" 200 -
+2025-05-09 23:00:19,030 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:00:19] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-05-09 23:00:19,040 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:00:19] "GET /login HTTP/1.1" 200 -
+2025-05-09 23:00:19,615 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:00:19] "[32mGET /accounts HTTP/1.1[0m" 302 -
+2025-05-09 23:00:19,625 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:00:19] "GET /login HTTP/1.1" 200 -
+2025-05-09 23:00:20,267 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:00:20] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-09 23:00:20,272 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:00:20] "GET /login HTTP/1.1" 200 -
+2025-05-09 23:00:20,742 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:00:20] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-09 23:00:20,752 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:00:20] "GET /login HTTP/1.1" 200 -
+2025-05-09 23:00:21,479 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:00:21] "[32mGET /settings HTTP/1.1[0m" 302 -
+2025-05-09 23:00:21,489 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:00:21] "GET /login HTTP/1.1" 200 -
+2025-05-09 23:00:26,736 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:00:26] "POST /login HTTP/1.1" 200 -
+2025-05-09 23:00:36,738 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-09 23:00:36,747 - discord.ext.commands.bot - WARNING - Privileged message content intent is missing, commands may not work as expected.
+2025-05-09 23:00:36,748 - discord.client - INFO - logging in using static token
+2025-05-09 23:00:36,771 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.151.133:5000
+2025-05-09 23:00:36,772 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-09 23:00:39,924 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: f7f4bbf78011a7c4e4e351b45665245f).
+2025-05-09 23:00:41,270 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:00:41] "POST /login HTTP/1.1" 200 -
+2025-05-09 23:00:41,940 - __main__ - INFO - Logged in as Rocky gen#8831 (ID: 1370305049019809873)
+2025-05-09 23:00:41,940 - __main__ - INFO - Connected to 1 guilds
+2025-05-09 23:01:23,774 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-09 23:01:23,783 - discord.ext.commands.bot - WARNING - Privileged message content intent is missing, commands may not work as expected.
+2025-05-09 23:01:23,784 - discord.client - INFO - logging in using static token
+2025-05-09 23:01:23,810 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.151.133:5000
+2025-05-09 23:01:23,810 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-09 23:01:26,110 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: cdd281c9e7a1139939742180dc9f2fc8).
+2025-05-09 23:01:28,152 - __main__ - INFO - Logged in as Rocky gen#8831 (ID: 1370305049019809873)
+2025-05-09 23:01:28,152 - __main__ - INFO - Connected to 1 guilds
+2025-05-09 23:01:28,337 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:01:28] "POST /login HTTP/1.1" 200 -
+2025-05-09 23:01:33,670 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:01:33] "POST /login HTTP/1.1" 200 -
+2025-05-09 23:02:03,401 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:02:03] "POST /login HTTP/1.1" 200 -
+2025-05-09 23:02:32,041 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-09 23:02:32,050 - discord.ext.commands.bot - WARNING - Privileged message content intent is missing, commands may not work as expected.
+2025-05-09 23:02:32,052 - discord.client - INFO - logging in using static token
+2025-05-09 23:02:32,078 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.151.133:5000
+2025-05-09 23:02:32,079 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-09 23:02:34,301 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:02:34] "POST /login HTTP/1.1" 200 -
+2025-05-09 23:02:35,432 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 21ceebddf67ada05502bc1406512d71c).
+2025-05-09 23:02:37,450 - __main__ - INFO - Logged in as Rocky gen#8831 (ID: 1370305049019809873)
+2025-05-09 23:02:37,451 - __main__ - INFO - Connected to 1 guilds
+2025-05-09 23:02:38,293 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:02:38] "POST /login HTTP/1.1" 200 -
+2025-05-09 23:04:14,926 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-09 23:04:14,935 - discord.ext.commands.bot - WARNING - Privileged message content intent is missing, commands may not work as expected.
+2025-05-09 23:04:14,936 - discord.client - INFO - logging in using static token
+2025-05-09 23:04:14,961 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.151.133:5000
+2025-05-09 23:04:14,961 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-09 23:04:17,512 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 6dc17453ea9b9a7ee7f33913e6d4b2e6).
+2025-05-09 23:04:19,526 - __main__ - INFO - Logged in as Rocky gen#8831 (ID: 1370305049019809873)
+2025-05-09 23:04:19,530 - __main__ - INFO - Connected to 1 guilds
+2025-05-09 23:04:21,454 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:04:21] "POST /login HTTP/1.1" 200 -
+2025-05-09 23:04:26,283 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:04:26] "POST /login HTTP/1.1" 200 -
+2025-05-09 23:04:35,153 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:04:35] "POST /login HTTP/1.1" 200 -
+2025-05-09 23:05:19,497 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-09 23:05:19,507 - discord.ext.commands.bot - WARNING - Privileged message content intent is missing, commands may not work as expected.
+2025-05-09 23:05:19,507 - discord.client - INFO - logging in using static token
+2025-05-09 23:05:19,536 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.151.133:5000
+2025-05-09 23:05:19,537 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-09 23:05:22,445 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: f3b7f9f2bc3c19a544318044678b6c79).
+2025-05-09 23:05:24,460 - __main__ - INFO - Logged in as Rocky gen#8831 (ID: 1370305049019809873)
+2025-05-09 23:05:24,460 - __main__ - INFO - Connected to 1 guilds
+2025-05-09 23:05:54,098 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-09 23:05:54,109 - discord.ext.commands.bot - WARNING - Privileged message content intent is missing, commands may not work as expected.
+2025-05-09 23:05:54,110 - discord.client - INFO - logging in using static token
+2025-05-09 23:05:54,136 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.151.133:5000
+2025-05-09 23:05:54,137 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-09 23:05:59,959 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: c80ca1120f2ea7d6f54d30744af525db).
+2025-05-09 23:06:01,968 - __main__ - INFO - Logged in as Rocky gen#8831 (ID: 1370305049019809873)
+2025-05-09 23:06:01,968 - __main__ - INFO - Connected to 1 guilds
+2025-05-09 23:06:10,566 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-09 23:06:10,579 - discord.ext.commands.bot - WARNING - Privileged message content intent is missing, commands may not work as expected.
+2025-05-09 23:06:10,580 - discord.client - INFO - logging in using static token
+2025-05-09 23:06:10,610 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.151.133:5000
+2025-05-09 23:06:10,611 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-09 23:06:13,389 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 7e282e19eda4f18157806507e6f33902).
+2025-05-09 23:06:15,403 - __main__ - INFO - Logged in as Rocky gen#8831 (ID: 1370305049019809873)
+2025-05-09 23:06:15,403 - __main__ - INFO - Connected to 1 guilds
+2025-05-09 23:06:28,051 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:06:28] "POST /login HTTP/1.1" 200 -
+2025-05-09 23:18:01,725 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:18:01] "POST /login HTTP/1.1" 200 -
+2025-05-09 23:18:06,787 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:18:06] "POST /login HTTP/1.1" 200 -
+2025-05-09 23:26:54,914 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-09 23:26:54,922 - discord.ext.commands.bot - WARNING - Privileged message content intent is missing, commands may not work as expected.
+2025-05-09 23:26:54,923 - discord.client - INFO - logging in using static token
+2025-05-09 23:26:54,958 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.151.133:5000
+2025-05-09 23:26:54,958 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-09 23:26:58,650 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 2d729e69ae686c4d0541fdb240d8ad0e).
+2025-05-09 23:27:00,663 - __main__ - INFO - Logged in as Rocky gen#8831 (ID: 1370305049019809873)
+2025-05-09 23:27:00,664 - __main__ - INFO - Connected to 1 guilds
+2025-05-09 23:27:07,988 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:27:07] "POST /login HTTP/1.1" 200 -
+2025-05-09 23:27:11,273 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:27:11] "POST /login HTTP/1.1" 200 -
+2025-05-09 23:27:13,318 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:27:13] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-09 23:27:13,326 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:27:13] "GET /login HTTP/1.1" 200 -
+2025-05-09 23:27:13,827 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:27:13] "[32mGET /settings HTTP/1.1[0m" 302 -
+2025-05-09 23:27:13,838 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:27:13] "GET /login HTTP/1.1" 200 -
+2025-05-09 23:27:14,904 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:27:14] "[32mGET /accounts HTTP/1.1[0m" 302 -
+2025-05-09 23:27:14,913 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:27:14] "GET /login HTTP/1.1" 200 -
+2025-05-09 23:27:15,875 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:27:15] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-05-09 23:27:15,890 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:27:15] "GET /login HTTP/1.1" 200 -
+2025-05-09 23:27:20,078 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:27:20] "POST /login HTTP/1.1" 200 -
+2025-05-09 23:27:31,293 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:27:31] "POST /login HTTP/1.1" 200 -
+2025-05-09 23:27:47,194 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:27:47] "POST /login HTTP/1.1" 200 -
+2025-05-09 23:27:54,717 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:27:54] "POST /login HTTP/1.1" 200 -
+2025-05-09 23:36:06,572 - discord.gateway - WARNING - Can't keep up, shard ID None websocket is 12.6s behind.
+2025-05-09 23:36:06,574 - discord.gateway - WARNING - Can't keep up, shard ID None websocket is 12.6s behind.
+2025-05-09 23:39:39,452 - discord.client - ERROR - Attempting a reconnect in 0.18s
+Traceback (most recent call last):
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\resolver.py", line 39, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Python313\Lib\asyncio\base_events.py", line 933, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, getaddr_func, host, port, family, type, proto, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Python313\Lib\socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\discord\client.py", line 701, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\discord\gateway.py", line 375, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\discord\http.py", line 554, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1363, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-05-09 23:39:39,779 - discord.client - ERROR - Attempting a reconnect in 3.40s
+Traceback (most recent call last):
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\resolver.py", line 39, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Python313\Lib\asyncio\base_events.py", line 933, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, getaddr_func, host, port, family, type, proto, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Python313\Lib\socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\discord\client.py", line 701, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\discord\gateway.py", line 375, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\discord\http.py", line 554, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1363, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-05-09 23:39:43,187 - discord.client - ERROR - Attempting a reconnect in 4.35s
+Traceback (most recent call last):
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\resolver.py", line 39, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Python313\Lib\asyncio\base_events.py", line 933, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, getaddr_func, host, port, family, type, proto, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Python313\Lib\socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\discord\client.py", line 701, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\discord\gateway.py", line 375, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\discord\http.py", line 554, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1363, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-05-09 23:39:47,550 - discord.client - ERROR - Attempting a reconnect in 16.00s
+Traceback (most recent call last):
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\resolver.py", line 39, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Python313\Lib\asyncio\base_events.py", line 933, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, getaddr_func, host, port, family, type, proto, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Python313\Lib\socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\discord\client.py", line 701, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\discord\gateway.py", line 375, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\discord\http.py", line 554, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1363, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-05-09 23:40:03,564 - discord.client - ERROR - Attempting a reconnect in 21.92s
+Traceback (most recent call last):
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\resolver.py", line 39, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Python313\Lib\asyncio\base_events.py", line 933, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, getaddr_func, host, port, family, type, proto, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Python313\Lib\socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\discord\client.py", line 701, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\discord\gateway.py", line 375, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\discord\http.py", line 554, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1363, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-05-09 23:40:25,498 - discord.client - ERROR - Attempting a reconnect in 16.73s
+Traceback (most recent call last):
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\resolver.py", line 39, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Python313\Lib\asyncio\base_events.py", line 933, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, getaddr_func, host, port, family, type, proto, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Python313\Lib\socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\discord\client.py", line 701, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\discord\gateway.py", line 375, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\discord\http.py", line 554, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1363, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-05-09 23:40:42,235 - discord.client - ERROR - Attempting a reconnect in 5.78s
+Traceback (most recent call last):
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\resolver.py", line 39, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Python313\Lib\asyncio\base_events.py", line 933, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, getaddr_func, host, port, family, type, proto, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Python313\Lib\socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\discord\client.py", line 701, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\discord\gateway.py", line 375, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\discord\http.py", line 554, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1363, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-05-09 23:40:48,039 - discord.client - ERROR - Attempting a reconnect in 88.10s
+Traceback (most recent call last):
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\resolver.py", line 39, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Python313\Lib\asyncio\base_events.py", line 933, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, getaddr_func, host, port, family, type, proto, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Python313\Lib\socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\discord\client.py", line 701, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\discord\gateway.py", line 375, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\discord\http.py", line 554, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\aiohttp\connector.py", line 1363, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-05-09 23:42:16,916 - discord.gateway - INFO - Shard ID None session has been invalidated.
+2025-05-09 23:42:22,989 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: fc3e294e1c54d2433c79176503c643e7).
+2025-05-09 23:42:25,005 - __main__ - INFO - Logged in as Rocky gen#8831 (ID: 1370305049019809873)
+2025-05-09 23:42:25,006 - __main__ - INFO - Connected to 1 guilds
+2025-05-09 23:42:25,007 - discord.client - ERROR - Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\discord\client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "J:\Advance Web Gen\gen.py", line 313, in on_ready
+    rotate_status.start()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ar104\AppData\Roaming\Python\Python313\site-packages\discord\ext\tasks\__init__.py", line 400, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+2025-05-09 23:45:34,589 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:45:34] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-05-09 23:45:34,596 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:45:34] "GET /login HTTP/1.1" 200 -
+2025-05-09 23:45:35,261 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:45:35] "[32mGET /accounts HTTP/1.1[0m" 302 -
+2025-05-09 23:45:35,273 - werkzeug - INFO - 192.168.151.133 - - [09/May/2025 23:45:35] "GET /login HTTP/1.1" 200 -
+2025-05-09 23:47:01,239 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-09 23:47:01,241 - discord.ext.commands.bot - WARNING - Privileged message content intent is missing, commands may not work as expected.
+2025-05-09 23:47:01,242 - discord.client - INFO - logging in using static token
+2025-05-09 23:47:07,733 - discord.gateway - INFO - Shard ID 0 has connected to Gateway (Session ID: 2f3a29daba219cf86117de6c547815ec).
+2025-05-09 23:47:09,741 - __main__ - INFO - Logged in as Rocky gen#8831 (ID: 1370305049019809873)
+2025-05-09 23:47:09,742 - __main__ - INFO - Connected to 1 guilds
+2025-05-09 23:47:09,743 - __main__ - INFO - Running 1 shard(s)
+2025-05-09 12:56:16,579 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-09 12:56:16,585 - discord.ext.commands.bot - WARNING - Privileged message content intent is missing, commands may not work as expected.
+2025-05-09 12:56:16,590 - discord.client - INFO - logging in using static token
+2025-05-09 12:56:18,000 - discord.gateway - INFO - Shard ID 0 has connected to Gateway (Session ID: cd40adb869e73bc877e193ac2fa71da2).
+2025-05-09 12:56:20,018 - __main__ - INFO - Logged in as Rocky gen#8831 (ID: 1370305049019809873)
+2025-05-09 12:56:20,019 - __main__ - INFO - Connected to 1 guilds
+2025-05-09 12:56:20,020 - __main__ - INFO - Running 1 shard(s)
+2025-05-09 13:00:41,570 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-09 13:00:41,578 - discord.ext.commands.bot - WARNING - Privileged message content intent is missing, commands may not work as expected.
+2025-05-09 13:00:41,585 - discord.client - INFO - logging in using static token
+2025-05-09 13:00:45,800 - discord.gateway - INFO - Shard ID 0 has connected to Gateway (Session ID: 3f38cbc17cd109d9216bca1c8952f456).
+2025-05-09 13:00:47,831 - __main__ - INFO - Logged in as Rocky gen#8831 (ID: 1370305049019809873)
+2025-05-09 13:00:47,842 - __main__ - INFO - Connected to 1 guilds
+2025-05-09 13:00:47,869 - __main__ - INFO - Running 1 shard(s)

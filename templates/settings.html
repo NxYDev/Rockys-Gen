@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="text-3xl font-bold mb-6">Settings</h1>
+
+<div class="bg-gray-800 p-6 rounded-lg mb-8">
+    <h2 class="text-2xl font-bold mb-4">Bot Configuration</h2>
+    <form method="POST" action="{{ url_for('update_settings') }}">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+            <div>
+                <label for="prefix" class="block mb-2">Command Prefix</label>
+                <input type="text" id="prefix" name="prefix" value="{{ config.prefix }}" class="w-full px-3 py-2 bg-gray-700 rounded" required>
+            </div>
+            <div>
+                <label for="embed_color" class="block mb-2">Embed Color (Hex)</label>
+                <input type="text" id="embed_color" name="embed_color" value="{{ config.embed_color }}" class="w-full px-3 py-2 bg-gray-700 rounded" required>
+            </div>
+        </div>
+        
+        <div class="mb-4">
+            <label for="admin_roles" class="block mb-2">Admin Roles (comma separated)</label>
+            <input type="text" id="admin_roles" name="admin_roles" value="{{ config.admin_roles|join(', ') }}" class="w-full px-3 py-2 bg-gray-700 rounded" required>
+        </div>
+        
+        <div class="mb-4">
+            <label for="premium_roles" class="block mb-2">Premium Roles (comma separated)</label>
+            <input type="text" id="premium_roles" name="premium_roles" value="{{ config.premium_roles|join(', ') }}" class="w-full px-3 py-2 bg-gray-700 rounded" required>
+        </div>
+        
+        <div class="mb-4">
+            <label for="status_rotation" class="block mb-2">Status Rotation (one per line)</label>
+            <textarea id="status_rotation" name="status_rotation" rows="3" class="w-full px-3 py-2 bg-gray-700 rounded">{{ config.status_rotation|join('
+') }}</textarea>
+        </div>
+        
+        <button type="submit" class="bg-blue-600 hover:bg-blue-700 py-2 px-4 rounded font-bold">
+            Save Settings
+        </button>
+    </form>
+</div>
+
+<div class="bg-gray-800 p-6 rounded-lg">
+    <h2 class="text-2xl font-bold mb-4">Web Panel Settings</h2>
+    <form method="POST" action="{{ url_for('update_web_settings') }}">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+            <div>
+                <label for="web_username" class="block mb-2">Username</label>
+                <input type="text" id="web_username" name="web_username" value="{{ config.web.username }}" class="w-full px-3 py-2 bg-gray-700 rounded" required>
+            </div>
+            <div>
+                <label for="web_password" class="block mb-2">Password (leave blank to keep current)</label>
+                <input type="password" id="web_password" name="web_password" class="w-full px-3 py-2 bg-gray-700 rounded">
+            </div>
+        </div>
+        
+        <button type="submit" class="bg-blue-600 hover:bg-blue-700 py-2 px-4 rounded font-bold">
+            Save Web Settings
+        </button>
+    </form>
+</div>
+{% endblock %}

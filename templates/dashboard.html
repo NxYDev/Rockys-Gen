@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="text-3xl font-bold mb-6">Dashboard</h1>
+
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+    <div class="bg-gray-800 p-6 rounded-lg">
+        <h3 class="text-xl font-semibold mb-2">Free Accounts</h3>
+        <p class="text-3xl font-bold text-blue-400">{{ stats.free }}</p>
+    </div>
+    <div class="bg-gray-800 p-6 rounded-lg">
+        <h3 class="text-xl font-semibold mb-2">Premium Accounts</h3>
+        <p class="text-3xl font-bold text-yellow-400">{{ stats.premium }}</p>
+    </div>
+    <div class="bg-gray-800 p-6 rounded-lg">
+        <h3 class="text-xl font-semibold mb-2">Free Generated</h3>
+        <p class="text-3xl font-bold text-green-400">{{ total_stats.free_generated }}</p>
+    </div>
+    <div class="bg-gray-800 p-6 rounded-lg">
+        <h3 class="text-xl font-semibold mb-2">Premium Generated</h3>
+        <p class="text-3xl font-bold text-purple-400">{{ total_stats.premium_generated }}</p>
+    </div>
+</div>
+
+<div class="bg-gray-800 p-6 rounded-lg mb-8">
+    <h2 class="text-2xl font-bold mb-4">Services Overview</h2>
+    <div class="overflow-x-auto">
+        <table class="w-full">
+            <thead>
+                <tr class="border-b border-gray-700">
+                    <th class="py-2 text-left">Service</th>
+                    <th class="py-2 text-right">Free</th>
+                    <th class="py-2 text-right">Premium</th>
+                    <th class="py-2 text-right">Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for service, counts in stats.services.items() %}
+                <tr class="border-b border-gray-700 hover:bg-gray-700">
+                    <td class="py-3">{{ service }}</td>
+                    <td class="py-3 text-right">{{ counts.free }}</td>
+                    <td class="py-3 text-right">{{ counts.premium }}</td>
+                    <td class="py-3 text-right">{{ counts.free + counts.premium }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
